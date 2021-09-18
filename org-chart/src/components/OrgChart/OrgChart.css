@@ -4,9 +4,9 @@
     background-color: #e0e0de;
     box-shadow: 1px 3px 10px #9E9E9E;
 
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     
     margin: 10px;
 }
