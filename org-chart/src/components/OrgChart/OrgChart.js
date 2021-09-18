@@ -5,7 +5,7 @@ class OrgChart extends Component {
     render() {
         return (
             <div>
-                <EmployeeCard/>
+                <EmployeeCard />
             </div>
         )
     }
