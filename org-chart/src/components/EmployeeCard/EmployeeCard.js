@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import './EmployeeCard.css';
+import { data } from '../../data/data.js';
+
 
 class EmployeeCard extends Component {
-    render() {
-        return (
-            <div class="container-style">
-                <div class="text-style">
-                    employee.status <br />
-                    employee.position <br />
-                    employee.location <br />
-                </div>
-            </div>
+    render(){
+        return(
+            <div></div>
         )
     }
 }
