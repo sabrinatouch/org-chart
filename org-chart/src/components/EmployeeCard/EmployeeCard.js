@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
+import './EmployeeCard.css';
 
 class EmployeeCard extends Component {
     render() {
-        const containerStyle = {
-            height: 100,
-            width: '100%',
-            backgroundColor: "#e0e0de"
-        }
-
         return (
-            <div style={containerStyle}>
-                hello
+            <div class="container-style">
+                <div class="text-style">
+                    employee.status <br />
+                    employee.position <br />
+                    employee.location <br />
+                </div>
             </div>
         )
     }

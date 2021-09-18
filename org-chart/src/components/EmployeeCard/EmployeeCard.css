@@ -1,0 +1,14 @@
+.container-style {
+    height: 150px;
+    width: 250px;
+    background-color: #e0e0de;
+    box-shadow: 1px 3px 10px #9E9E9E;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.text-style {
+    font-family: 'Roboto', sans-serif;
+}
