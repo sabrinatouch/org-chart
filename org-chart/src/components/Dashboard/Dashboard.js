@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import OrgChart from '../OrgChart/OrgChart';
 
 class Dashboard extends React.Component {
     render() {
         return (
-            <div></div>
+            <div>
+                <OrgChart/>
+            </div>
         )
     }
 }
