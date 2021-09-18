@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './EmployeeCard.css';
+import OrgChart from '../OrgChart/OrgChart';
 
-
-export const EmployeeCard = ({employee}) => {
-    
+const EmployeeCard = ({node}) => {
     const StatusBarColor = ({color}) => {
         const statusBarStyle = {
             height: 20,
@@ -30,14 +29,19 @@ export const EmployeeCard = ({employee}) => {
                 break;
         }
     };
-    
+    // Render current tree node 
     return (
-        <div class="container-style">
-            <StatusBar status={employee.status} />
-            {/* <StatusBar color={} /> */}
-            <div>
-                {employee.position} <br />
-                {employee.location}
+        <div class="chart-style">
+            <div class="container-style">
+                <div>
+                    <StatusBar status={node.status} />
+                    {node.position} <br />
+                    {node.location}
+                </div>
+            </div>
+
+            <div class="container">
+                <OrgChart data={node.children} />
             </div>
         </div>
     );

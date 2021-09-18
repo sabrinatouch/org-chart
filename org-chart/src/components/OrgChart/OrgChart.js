@@ -1,18 +1,16 @@
 // OrgChart.js
 
-import React, { Component } from 'react';
+import React from 'react';
 import './OrgChart.css';
 import EmployeeCard from '../EmployeeCard/EmployeeCard';
-import { data } from '../../data/data.js';
 
-export const OrgChart = () => {
+const OrgChart = ({ data = [] }) => {
+    // Map initial read in data to be the root of the tree
     return (
         <div>
-            {data.map((employee, key) => {
+            {data.map((employee) => {
                 return (
-                    <div key={key}>
-                        <EmployeeCard employee={employee} />
-                    </div>
+                    <EmployeeCard node={employee} />
                 );
             })}
         </div>
