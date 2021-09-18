@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './EmployeeCard.css';
 import OrgChart from '../OrgChart/OrgChart';
 

@@ -1,6 +1,6 @@
 // OrgChart.js
 
-import React, { Component } from 'react';
+import React from 'react';
 import './OrgChart.css';
 import EmployeeCard from '../EmployeeCard/EmployeeCard';
 
