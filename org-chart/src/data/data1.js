@@ -1,16 +1,16 @@
-export const data = [
+export const data1 = [
     {
         "employeeId": 1,
         "position": "VP of Sales",
         "location": null,
-        "status": "critical",
+        "status": "normal",
         "parentId": null,
         "children": [
             {
                 "employeeId": 2,
                 "position": "Sales Manager",
                 "location": "North America",
-                "status": "critical",
+                "status": "normal",
                 "parentId": 1,
                 "children": [
                     {
@@ -40,28 +40,28 @@ export const data = [
                         "employeeId": 5,
                         "position": "Sales Lead",
                         "location": "USA",
-                        "status": "critical",
+                        "status": "warning",
                         "parentId": 2,
                         "children": [
                             {
                                 "employeeId": 9,
                                 "position": "Sales Representative",
                                 "location": "New York",
-                                "status": "warning",
+                                "status": "normal",
                                 "parentId": 5 
                             },
                             {
                                 "employeeId": 10,
                                 "position": "Sales Representative",
                                 "location": "Dallas",
-                                "status": "critical",
+                                "status": "warning",
                                 "parentId": 5 
                             },
                             {
                                 "employeeId": 11,
                                 "position": "Sales Representative",
                                 "location": "Los Angeles",
-                                "status": "critical",
+                                "status": "warning",
                                 "parentId": 5 
                             }
                         ]
@@ -93,7 +93,7 @@ export const data = [
                                 "employeeId": 13,
                                 "position": "Sales Representative",
                                 "location": "Frankfurt",
-                                "status": "critical",
+                                "status": "warning",
                                 "parentId": 6 
                             }
                         ] 

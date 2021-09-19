@@ -7,7 +7,8 @@ const EmployeeCard = ({node}) => {
         const statusBarStyle = {
             height: 20,
             width: '100%',
-            backgroundColor: color
+            backgroundColor: color,
+            marginBottom: 20
         }
     
         return (
@@ -33,16 +34,14 @@ const EmployeeCard = ({node}) => {
     return (
         <div class="chart-style">
             <div class="container-style">
+                <StatusBar status={node.status} />
                 <div>
-                    <StatusBar status={node.status} />
                     {node.position} <br />
                     {node.location}
                 </div>
             </div>
 
-            <div class="container">
-                <OrgChart data={node.children} />
-            </div>
+            <OrgChart data={node.children} />
         </div>
     );
 };
