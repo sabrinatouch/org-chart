@@ -1,7 +1,6 @@
 // OrgChart.js
 
 import React, { Component } from 'react';
-import './OrgChart.css';
 import EmployeeCard from '../EmployeeCard/EmployeeCard';
 
 const OrgChart = ({ data = [] }) => {
