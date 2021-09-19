@@ -35,8 +35,10 @@ const EmployeeCard = ({node}) => {
         <div class="chart-style">
             <div class="container-style">
                 <StatusBar status={node.status} />
-                <div>
-                    {node.position} <br />
+                <div class="position-style">
+                    {node.position}
+                </div>
+                <div class="location-style">
                     {node.location}
                 </div>
             </div>

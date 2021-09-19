@@ -13,3 +13,12 @@
     justify-content: center;
     align-items: center;
 }
+
+.position-style {
+    font-weight: bold;
+    color: #414141;
+}
+
+.location-style {
+    color: #787878;
+}
