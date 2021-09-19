@@ -23,13 +23,14 @@ const EmployeeCard = ({node}) => {
                 return <StatusBarColor color={"#4caf50"} />;
                 break;
             case "warning":
-                return <StatusBarColor color={"#ffeb3b"} />;
+                return <StatusBarColor color={"#ffcd38"} />;
                 break;
             case "critical":
                 return <StatusBarColor color={"#f44336"} />;
                 break;
         }
     };
+
     // Render current tree node 
     return (
         <div class="chart-style">

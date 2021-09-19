@@ -34,7 +34,7 @@ class Dashboard extends Component {
         // In practice, would instead implement an API call
         // utilizing fetch() to collect the new data
     fakeFetchData() {
-        console.log("New data is being has been fetched.")
+        console.log("Fetching data...")
 
         if (this.state.employeeData == data) {
             this.setState({
