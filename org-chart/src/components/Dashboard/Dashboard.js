@@ -1,3 +1,6 @@
+// Dashboard.js
+// References: https://reactjs.org/docs/state-and-lifecycle.html
+
 import React, { Component, useState, useEffect } from 'react';
 import OrgChart from '../OrgChart/OrgChart';
 import { data } from '../../data/data.js';
